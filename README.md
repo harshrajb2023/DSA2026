@@ -1,56 +1,57 @@
 📘 DSA Repository
 
-This repository contains Data Structures and Algorithms (DSA) implementations organized by programming language using a clean and scalable branch-based workflow.
+I created this repository to practice and maintain Data Structures and Algorithms (DSA) in an organized way.
+The code is separated by programming language using a clean branch-based structure, which makes it easy to manage and scale.
 
 🌿 Branch Structure
 🔹 DsaAll (Parent Branch)
 
-Main integration branch
+This is the main branch
 
-Contains merged and finalized DSA solutions
+It contains the final and merged DSA solutions
 
-Receives updates from all language-specific branches
+All language-specific branches are merged here
 
 🔹 DsaJs (Child Branch)
 
-Holds DSA implementations written only in JavaScript
+Contains DSA implementations written only in JavaScript
 
-Used for development and testing of JS-based solutions
+Used for writing and testing JS solutions
 
 🔹 DsaPython (Child Branch)
 
-Holds DSA implementations written only in Python
+Contains DSA implementations written only in Python
 
-Used for development and testing of Python-based solutions
+Used for writing and testing Python solutions
 
 🔀 Development Workflow
 
-Write and test DSA solutions in the respective language branch:
+I write and test DSA code in the respective language branch
 
 JavaScript → DsaJs
 
 Python → DsaPython
 
-Once stable, merge the child branch into the parent branch:
+After the code is stable, I merge it into the parent branch
 
 DsaJs → DsaAll
 
 DsaPython → DsaAll
 
-The DsaAll branch always represents the combined and updated DSA implementations.
+The DsaAll branch always contains the latest combined solutions
 
-🎯 Goals of This Repository
+🎯 Purpose of This Repository
 
-Maintain a clear separation of language-specific code
+Keep language-specific code clearly separated
 
-Enable clean and organized collaboration
+Maintain a clean and structured DSA practice repo
 
-Provide a scalable structure for adding more programming languages in the future
+Make it easy to add more languages in the future
 
-🚀 Future Enhancements
+🚀 Future Plans
 
-Add more languages (Java, C++, etc.)
+Add more languages like Java and C++
 
-Improve problem categorization (Arrays, Trees, Graphs, DP)
+Organize problems by topics (Arrays, Trees, Graphs, DP, etc.)
 
-Add complexity analysis and explanations
+Add time and space complexity with explanations
